@@ -102,7 +102,7 @@ For major changes, please open an issue first to discuss what you would like to 
 ## 📞 Contact
 If you have any questions or suggestions, feel free to contact me at:
 - Email: shripadgaurav444@gmail.com
-- LinkedIn: [Click Here](www.linkedin.com/in/shripad-khandare-39a2a2203)
+- LinkedIn: [Click Here]([www.linkedin.com/in/shripad-khandare-39a2a2203](https://www.linkedin.com/in/shripad-khandare-39a2a2203/))
 
 Thank you for checking out the Hospital Management System project! 🙌
 ```
