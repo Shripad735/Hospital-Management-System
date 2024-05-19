@@ -76,6 +76,8 @@ Ensure you have the following installed:
 ![Other Services](images/other_services2.png)
 ![billing](images/billing1.png)
 ![billing](images/billing2.png)
+![Booking Confirmed](images/book_confirm.png)
+
 
 
 ## 🤝 Contributing
