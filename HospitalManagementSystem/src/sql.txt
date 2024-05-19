@@ -1,0 +1,49 @@
+Create DATABASE hospitalmngsys;
+
+CREATE TABLE patients (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    age INT NOT NULL,
+    gender VARCHAR(10) NOT NULL,
+    blood_group VARCHAR(3) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE appointments (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    doctor_name VARCHAR(255) NOT NULL,
+    patient_name VARCHAR(255) NOT NULL,
+    patient_email VARCHAR(255) NOT NULL,
+    appointment_date DATE NOT NULL,
+    appointment_time TIME NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE admins (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE blood_bank (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    contact_number VARCHAR(15) NOT NULL,
+    address VARCHAR(255)
+);
+
+CREATE TABLE lab_tests (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    test_name VARCHAR(100) NOT NULL,
+    price DECIMAL(10, 2) NOT NULL
+);
+
+CREATE TABLE lab_test_bookings (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    tests VARCHAR(255) NOT NULL,
+    patient_name VARCHAR(100) NOT NULL,
+    patient_email VARCHAR(100) NOT NULL,
+    patient_phone VARCHAR(20) NOT NULL,
+    booking_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
