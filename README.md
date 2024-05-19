@@ -44,7 +44,6 @@ Ensure you have the following installed:
    - Create a database in MySQL using the provided `sql.txt` file.
    - Update the database credentials in the project:
      ```java
-     //
      String url = "jdbc:mysql://localhost:3306/hospitalmngsys";
      String username = "your_username";
      String password = "your_password";
@@ -103,7 +102,7 @@ For major changes, please open an issue first to discuss what you would like to 
 ## 📞 Contact
 If you have any questions or suggestions, feel free to contact me at:
 - Email: shripadgaurav444@gmail.com
-- LinkedIn: [My LinkedIn](www.linkedin.com/in/shripad-khandare-39a2a2203)
+- LinkedIn: [Click Here](www.linkedin.com/in/shripad-khandare-39a2a2203)
 
 Thank you for checking out the Hospital Management System project! 🙌
 ```
