@@ -1,4 +1,4 @@
-```markdown
+
 # 🏥 Hospital Management System
 
 Welcome to the Hospital Management System project! This project is built using Java, JSP, Servlets, JDBC, and MySQL. It aims to streamline and manage hospital operations efficiently.
